@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 body{
-    background: url('img/sakuras.jpg');
+    background: url('img/sakuras.jpg') no-repeat;
     background-size: cover;
     backdrop-filter: blur(5px) grayscale(25%);
     height: 100vh;
