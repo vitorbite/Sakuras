@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('/sakuras.jpg');
+    background-size: cover;
+    backdrop-filter: blur(5px) grayscale(25%);
+    height: 100vh;
+    background-color: #333333;
+    overflow: hidden;
+}
+.petala{
+    background-color: rgb(238, 95, 243);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -20%;
+    left: 95%;
+    transform:skew(-26deg);
+    border-radius: 10px 0;
+    filter:brightness(2);
+    box-shadow: 0 0 7px rgb(248, 153, 252);
+    animation: queda 7s linear infinite;
+}
+
