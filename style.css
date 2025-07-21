@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: -moz-hidden-unscrollable;
+}
+html{
+    overflow: hidden;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
 }
 body{
     background: url('img/sakuras.jpg') no-repeat;
@@ -11,6 +16,8 @@ body{
     height: 100vh;
     background-color: #333333;
     overflow: hidden;
+    max-width: 100vw;
+    max-height: 100vh;
 }
 .petala{
     background-color: rgb(238, 95, 243);
